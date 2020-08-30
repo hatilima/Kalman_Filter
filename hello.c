@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-enum week {sunday = 4, monday, tuesday, wednesday, friday, saturday };
+enum week {sunday = 4, monday, tuesday, wednesday, thursday, friday, saturday };
 int main()
 {
   /*testing enumeration: creating user defined data type for integral constants or a variable */
