@@ -2,6 +2,7 @@
 
 #include "afro_kalman.h"
 #include <math.h>
+#include<stdint.h>
 
 void kalmanPredict(KalmanFilter* filter, float gyroRate, float dt) {
     // Predict the state
