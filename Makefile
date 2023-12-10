@@ -28,7 +28,7 @@ afro_kalman.o: afro_kalman.c99
 	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Wall -g -std=c99 -c afro_kalman.c -o afro_kalman.o
 
 clean:
-	rm -f $(OBJS) $(TARGET).elf
+	rm -f *.elf *.o *.bin
 
 .PHONY: all clean
 
