@@ -3,7 +3,9 @@ pipeline{
     stages{
         stage('System Config'){
             steps{
-                //sh 'make --version'
+                sh 'make --version'
+                sh 'arm-none-eabi-gcc --version'
+                sh 'arm-none-eabi-ld --version'
                 echo 'Configure Toolchain..'
             }
         }
